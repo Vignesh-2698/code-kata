@@ -1,6 +1,6 @@
-N=input()
-L=input()
-R=input()
+N=input("Input")
+L=input("Input")
+R=input("Input")
 if(N>L):
     if(N<R):
         print('yes')
