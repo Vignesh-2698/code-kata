@@ -1,8 +1,6 @@
-N=input("Input")
-L=input("Input")
-R=input("Input")
-if(N>L):
-    if(N<R):
+N=int(input())
+if(N>2):
+    if(N<6):
         print('yes')
     else:
         print('no')
