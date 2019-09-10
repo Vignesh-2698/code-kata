@@ -1,6 +1,8 @@
-a=3
-if(a>0):
-    if(a<6):
+N=input()
+L=input()
+R=input()
+if(N>L):
+    if(N<R):
         print('yes')
     else:
         print('no')
