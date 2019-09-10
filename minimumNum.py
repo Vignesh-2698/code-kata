@@ -1,5 +1,4 @@
-list1 = [10, 20, 1, 45, 99] 
-  
+array=list(map(int,input().split()))  
   
 # printing the maximum element 
-print("Smallest element is:", min(list1)) 
+print(min(array)) 
