@@ -1,4 +1,3 @@
-array=list(map(int,input().split()))  
-  
-# printing the maximum element 
+N=input()
+array=list(map(int,input().split())) 
 print(min(array),max(array)) 
