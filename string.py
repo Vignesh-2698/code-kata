@@ -1,3 +1,2 @@
-firstword= input()
-lastword=input()
-print(lastword +" " + firstword)
+first,last=(map(str,input().split()))
+print(last +" " + first)
