@@ -1,7 +1,8 @@
-N=int(input())
+N,m=map(int,input().split())
 list=[1,3,2,2]
-if(N in list):
+if(m in list):
     print('yes')
 else:
     print('no')
+    
     
